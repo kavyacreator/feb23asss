@@ -1,0 +1,14 @@
+k=[]
+n=int(input())
+for i in range(n):
+    k.append(int(input()))
+print(k)
+min=k[0]
+max=k[0]
+for i in range(n):
+    if min>k[i]:
+        min=k[i]
+    if max<k[i]:
+        max=k[i]
+print('maximum in the list is:',max)
+print('minimum in the list is:',min)
