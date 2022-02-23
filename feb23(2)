@@ -1,0 +1,11 @@
+k=[]
+m=[]
+n=int(input())
+for i in range(n):
+    k.append(int(input()))
+print('elements in the list:',k)
+for j in range(n-1,-1,-1):
+    m.append(k[j])
+    
+print('elements in the list:',m)
+    
